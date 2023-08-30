@@ -1,0 +1,11 @@
+version: "2.0"
+services:
+
+  flair-gg-vp-server:
+    image: markw/fdp-query-server:0.0.1
+    container_name: "fdp-query-server"
+    ports:
+      - "4567:4567"
+    command: ruby /server/harvester/app/controllers/application_controller.rb -o 0.0.0.0
+    environment:
+      - RUBYOPT=-W0 -KU -E utf-8:utf-8

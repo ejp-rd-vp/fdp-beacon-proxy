@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71> a dcat:Resource,
+    dcat:Dataset;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Distributions";
+  dcterms:title "Duchenne Data Platform";
+  dcterms:hasVersion "0.0.2";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-03-27T08:37:58.053935356Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2023-07-25T13:54:01.355099811Z"^^xsd:dateTime;
+  dcterms:license <https://en.wikipedia.org/wiki/All_rights_reserved>;
+  dcterms:description "The Duchenne Data Platform (DDP) is a patient-led registry. Patients are the owners of their data and have their own ‘data lockers’ where they can not only collect their Patient Reported Outcomes (PROs) but can also upload their data from other sources such as hospitals and wearables.";
+  dcterms:conformsTo <https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
+    <https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71#identifier>;
+  dcterms:accessRights <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Mark D Wilkinson"
+    ];
+  <http://semanticscience.org/resource/SIO_000628> <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:isPartOf <https://w3id.org/duchenne-fdp/catalog/ce01b2e8-3a1d-434e-b5e2-98e3a8d78a5b>;
+  dcterms:issued "2023-03-26T22:00:00Z"^^xsd:dateTime;
+  dcterms:modified "2023-03-27T18:14:16"^^xsd:dateTime;
+  dcterms:rights <https://en.wikipedia.org/wiki/All_rights_reserved>;
+  dcat:keyword "Becker Muscular Dystrophy", "Clinical data", "Duchenne Muscular Dystrophy",
+    "Genetic data", "PROMs", "PROs";
+  dcat:landingPage <https://duchenne.nl>;
+  dcat:theme <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>, <http://semanticscience.org/resource/SIO_000614>,
+    <http://www.dpp_ontology.net/terms/Intermediate>, <http://purl.obolibrary.org/obo/NCIT_C172685>,
+    <http://purl.obolibrary.org/obo/HP_0000750>, <http://purl.obolibrary.org/obo/HP_0001263>,
+    <http://purl.obolibrary.org/obo/NCIT_C20197>, <http://purl.obolibrary.org/obo/NCIT_C28421>,
+    <http://purl.obolibrary.org/obo/HP_0032321>, <http://purl.obolibrary.org/obo/HP_0002194>,
+    <http://purl.obolibrary.org/obo/HP_0008981>, <http://semanticscience.org/resource/SIO_010056>,
+    <http://purl.obolibrary.org/obo/NCIT_C16576>, <http://www.orpha.net/ORDO/Orphanet_98896>,
+    <http://purl.obolibrary.org/obo/HP_0000708>, <http://purl.obolibrary.org/obo/NCIT_C68615>,
+    <http://www.orpha.net/ORDO/Orphanet_98895>, <http://purl.obolibrary.org/obo/NCIT_C121238>,
+    <http://purl.org/ejp-rd/vocabulary/VPQueryable>, <http://purl.obolibrary.org/obo/MP_0012106>,
+    <http://purl.obolibrary.org/obo/HP_0001270>, <http://purl.obolibrary.org/obo/HP_0003044>,
+    <http://purl.obolibrary.org/obo/UBERON_0001434>, <http://purl.obolibrary.org/obo/NCIT_C93300>,
+    <http://purl.obolibrary.org/obo/NCIT_C171133>, <http://purl.obolibrary.org/obo/CMO_0000294>,
+    <http://purl.obolibrary.org/obo/NCIT_C70810>, <http://purl.obolibrary.org/obo/NCIT_C136154>,
+    <http://purl.obolibrary.org/obo/HP_0020110>, <http://purl.obolibrary.org/obo/HP_0008366>,
+    <http://purl.obolibrary.org/obo/NCIT_C115805>, <http://purl.obolibrary.org/obo/NCIT_C101668>,
+    <http://purl.obolibrary.org/obo/HP_0006380>, <http://purl.obolibrary.org/obo/NCIT_C138901>,
+    <http://purl.obolibrary.org/obo/NCIT_C15222>, <http://purl.obolibrary.org/obo/NCIT_C94321>,
+    <http://purl.obolibrary.org/obo/HP_0002019>, <http://semanticscience.org/resource/CHEMINF_000047>,
+    <http://semanticscience.org/resource/SIO_000031>, <http://purl.obolibrary.org/obo/NCIT_C125410>,
+    <http://purl.obolibrary.org/obo/PATO_0001421>, <http://purl.obolibrary.org/obo/NCIT_C141706>,
+    <http://semanticscience.org/resource/SIO_000032>, <http://purl.obolibrary.org/obo/HP_0002650>,
+    <http://purl.obolibrary.org/obo/HP_0002987>, <http://purl.obolibrary.org/obo/HP_0002014>,
+    <http://purl.obolibrary.org/obo/CMO_0000005>, <http://purl.obolibrary.org/obo/NCIT_C13306>,
+    <http://purl.obolibrary.org/obo/NCIT_C15383>, <http://purl.obolibrary.org/obo/HP_0033333>,
+    <http://purl.obolibrary.org/obo/HP_0002020>, <http://purl.obolibrary.org/obo/NCIT_C141702>,
+    <http://purl.obolibrary.org/obo/HP_0009473>, <http://purl.obolibrary.org/obo/HP_0033454>,
+    <http://purl.obolibrary.org/obo/NCIT_C141687>, <http://purl.obolibrary.org/obo/NCIT_C131922>,
+    <http://semanticscience.org/resource/SIO_000061>, <http://purl.obolibrary.org/obo/NCIT_C62103>,
+    <http://purl.obolibrary.org/obo/NCIT_C25656>, <http://purl.obolibrary.org/obo/NCIT_C176742>,
+    <http://purl.obolibrary.org/obo/HP_0000819>, <http://purl.obolibrary.org/obo/HP_0005997>,
+    <http://purl.obolibrary.org/obo/NCIT_C25279>, <http://purl.obolibrary.org/obo/CMO_0000180>,
+    <http://purl.obolibrary.org/obo/HP_0006957>, <http://purl.obolibrary.org/obo/NCIT_C122920>,
+    <http://purl.obolibrary.org/obo/NCIT_C20993>, <http://purl.obolibrary.org/obo/NCIT_C49887>,
+    <http://purl.obolibrary.org/obo/NCIT_C94198>, <http://purl.obolibrary.org/obo/NCIT_C132531>,
+    <http://purl.obolibrary.org/obo/HP_0003270>, <http://purl.obolibrary.org/obo/NCIT_C50276>,
+    <http://purl.obolibrary.org/obo/NCIT_C13359>, <http://purl.obolibrary.org/obo/NCIT_C156186>,
+    <http://purl.obolibrary.org/obo/NCIT_C130965>, <http://purl.obolibrary.org/obo/NCIT_C16457>,
+    <http://purl.obolibrary.org/obo/NCIT_C102559>, <http://purl.obolibrary.org/obo/NCIT_C25271>,
+    <http://purl.obolibrary.org/obo/HP_0030193>, <http://purl.obolibrary.org/obo/NCIT_C50184>,
+    <http://purl.obolibrary.org/obo/NCIT_C25711>, <http://purl.obolibrary.org/obo/NCIT_C141689>,
+    <http://purl.obolibrary.org/obo/NCIT_C173346>, <http://purl.obolibrary.org/obo/NCIT_C115789>,
+    <http://purl.obolibrary.org/obo/NCIT_C132555>, <http://purl.obolibrary.org/obo/NCIT_C156420>,
+    <http://purl.obolibrary.org/obo/NCIT_C25597>;
+  dcat:distribution <https://w3id.org/duchenne-fdp/distribution/a3c1d96a-e35c-4417-a3fc-62028acf1f26> .
+
+<https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71" .
+
+<https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://w3id.org/duchenne-fdp/distribution/> a ldp:DirectContainer, ldp:DirectContainer;
+  dcterms:title "Distributions", "Distributions";
+  ldp:hasMemberRelation dcat:distribution, dcat:distribution;
+  ldp:membershipResource <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71>,
+    <https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71>;
+  ldp:contains <https://w3id.org/duchenne-fdp/distribution/a3c1d96a-e35c-4417-a3fc-62028acf1f26>,
+    <https://w3id.org/duchenne-fdp/distribution/a3c1d96a-e35c-4417-a3fc-62028acf1f26> .
+
+<https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Dataset Profile", "Dataset Profile" .
+
+<https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://w3id.org/duchenne-fdp/dataset/3a2b5a69-b36f-4db9-983d-a1e410ba9c71/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
