@@ -12,6 +12,16 @@ def set_routes(classes: allclasses)
     erb :sparql_results
   end
 
+  post '/fdp-beacon-proxy/site/' do
+    content_type :json
+    @results = uri, @request_payload['endpoint'], @request_payload['queryString']
+    erb :sparql_results
+  end
+
+  post %r{/fdp-beacon-proxy/hello/([\S]+)} do
+    @results = "Hello, #{params[:captures].first}!"
+  end
+  
   before do
     request.body.rewind
     @request_payload = JSON.parse('{}')
