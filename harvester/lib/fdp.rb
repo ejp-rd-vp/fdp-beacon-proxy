@@ -151,7 +151,7 @@ class FDP
 
   def find_discoverables
     vpd = SPARQL.parse("
-    PREFIX ejp: <http://purl.org/ejp-rd/vocabulary/>
+    PREFIX ejp: <https://w3id.org/ejp-rd/vocabulary#>
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dc: <http://purl.org/dc/terms/>
 
@@ -168,7 +168,7 @@ class FDP
 
   def keyword_search(keyword: "")
     vpd = SPARQL.parse("
-    PREFIX ejp: <http://purl.org/ejp-rd/vocabulary/>
+    PREFIX ejp: <https://w3id.org/ejp-rd/vocabulary#>
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dc: <http://purl.org/dc/terms/>
 
@@ -191,7 +191,7 @@ class FDP
   def ontology_search(uri: "")
     warn "definitel in ontology search"
     vpd = SPARQL.parse("
-    PREFIX ejp: <http://purl.org/ejp-rd/vocabulary/>
+    PREFIX ejp: <https://w3id.org/ejp-rd/vocabulary#>
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dc: <http://purl.org/dc/terms/>
 
@@ -239,7 +239,7 @@ class FDP
   def get_verbose_annotations
     words = []
     vpd = SPARQL.parse("
-    PREFIX ejp: <http://purl.org/ejp-rd/vocabulary/>
+    PREFIX ejp: <https://w3id.org/ejp-rd/vocabulary#>
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dc: <http://purl.org/dc/terms/>
 
@@ -257,7 +257,7 @@ class FDP
 
     warn "\n\nSWITCH TO KEYWORDS\n\n"
     vpd = SPARQL.parse("
-    PREFIX ejp: <http://purl.org/ejp-rd/vocabulary/>
+    PREFIX ejp: <https://w3id.org/ejp-rd/vocabulary#>
     PREFIX dcat: <http://www.w3.org/ns/dcat#>
     PREFIX dc: <http://purl.org/dc/terms/>
 

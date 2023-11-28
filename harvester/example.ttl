@@ -30,7 +30,7 @@
   dcat:keyword "Becker Muscular Dystrophy", "Clinical data", "Duchenne Muscular Dystrophy",
     "Genetic data", "PROMs", "PROs";
   dcat:landingPage <https://duchenne.nl>;
-  dcat:theme <http://purl.org/ejp-rd/vocabulary/VPDiscoverable>, <http://semanticscience.org/resource/SIO_000614>,
+  dcat:theme <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable>, <http://semanticscience.org/resource/SIO_000614>,
     <http://www.dpp_ontology.net/terms/Intermediate>, <http://purl.obolibrary.org/obo/NCIT_C172685>,
     <http://purl.obolibrary.org/obo/HP_0000750>, <http://purl.obolibrary.org/obo/HP_0001263>,
     <http://purl.obolibrary.org/obo/NCIT_C20197>, <http://purl.obolibrary.org/obo/NCIT_C28421>,
@@ -39,7 +39,7 @@
     <http://purl.obolibrary.org/obo/NCIT_C16576>, <http://www.orpha.net/ORDO/Orphanet_98896>,
     <http://purl.obolibrary.org/obo/HP_0000708>, <http://purl.obolibrary.org/obo/NCIT_C68615>,
     <http://www.orpha.net/ORDO/Orphanet_98895>, <http://purl.obolibrary.org/obo/NCIT_C121238>,
-    <http://purl.org/ejp-rd/vocabulary/VPQueryable>, <http://purl.obolibrary.org/obo/MP_0012106>,
+    <https://w3id.org/ejp-rd/vocabulary#VPQueryable>, <http://purl.obolibrary.org/obo/MP_0012106>,
     <http://purl.obolibrary.org/obo/HP_0001270>, <http://purl.obolibrary.org/obo/HP_0003044>,
     <http://purl.obolibrary.org/obo/UBERON_0001434>, <http://purl.obolibrary.org/obo/NCIT_C93300>,
     <http://purl.obolibrary.org/obo/NCIT_C171133>, <http://purl.obolibrary.org/obo/CMO_0000294>,
